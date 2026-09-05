@@ -23,6 +23,7 @@ while(True):
             break
 print("Total investment:₹",total_sum)
 file=open("C:/Users/Mohd Azeem/investment.txt","a")
+file=open("investment.txt","a")
 file.write("total investment:")
 file.write(str(total_sum))
 file.write("\n")
